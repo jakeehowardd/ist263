@@ -1,5 +1,7 @@
 body {font-family: Verdana (sans-serif);}
- h1, h2 {color: AntiqueWhite}
- .evenrow{color:blue}
+ h1, h2 {color: AntiqueWhite;}
+ tr {background-color: #3D2C8D;
+    background-color: #3d2d7c; 
+}
  h1 {font face: 2em }
  h2 {font face: 1.5em }
