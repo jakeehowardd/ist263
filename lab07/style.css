@@ -15,6 +15,11 @@ a:link {
     color: #3D2C8D
   }
 
+nav {background-color: #F9E4C8 ;}
 
+nav a{color: #EC9CD3;}
 
+nav a:hover {background-color: #2cade0;}
 
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
