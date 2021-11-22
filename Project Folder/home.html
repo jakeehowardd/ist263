@@ -5,70 +5,194 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.homep{
+    padding: 15px;
+       background-color: lightgrey;
+       border: 1px solid black;
+    
+    }
+    .h2 {background-color: rgb(126, 126, 126);
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        border: 1px solid black;}
+    .h2 h2 {color: white;
+       }
+
+.trending {display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  
+  
+}
+.buy{display: flex;
+flex-direction: column;
+margin:auto;
+}
+.product1, .product2, .product3{text-align: center;
+        padding: 1em;
+        
+        
+        }
+}
+
+
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="home.html">Home Page</a>
-        <br class = "br">
-        <span>|</span>  <a href="products.html">Our Products</a>
-        <br class = "br">
-       <span>|</span>  <a href="about.html">About Us</a>
-    </nav>
-    <p>affordable.com is an e-commerce site that offers everyday products at an
-        affordable price. We ensure every product passes a quality inspec=on
+    <div class='header'>   
+
+        <div class="logo">
+            <img src=" https://static.thenounproject.com/png/3451776-200.png" width = "50" alt = "Affordable logo" >
+        </div>
+            
+       
+        
+           
+        <div class="middle"> 
+            
+            <form id="form"> 
+                    <input type="search" id="query" name="q" placeholder="Search..." size="20" >
+                    <button>Search</button>
+                    
+                </form>
+            
+                <br>
+            
+            <div class="nav1">
+                <nav><a href="home.html">Home Page</a>
+                <br class = "br">
+                <span>|</span>  <a href="products.html">Our Products</a>
+                <br class = "br">
+            <span>|</span>  <a href="about.html">About Us</a></nav>
+            </div>
+                
+        </div> 
+               
+                
+            
+ 
+   
+          <div class="button">
+            <div class="b1"><input type="submit" value="Login"></div> 
+             
+            <div class="b2"><input type="submit" value="Cart Items"></div>
+          </div> 
+                      
+    
+</div>
+
+<div class="homep">
+    <p>Affordable.com is an e-commerce site that offers everyday products at an
+        affordable price. We ensure every product passes a quality inspection
         before it reaches your door. The customer is our number one priority. Visit
-        our product page to see our top quality selec=on for yourself.
-        Our products offer a price match guarantee and as well as a quality
+        our product page to see our top quality selection for yourself.
+        </p>
+        <br>
+        <p>Our products offer a price match guarantee as well as a quality
         guarantee.</p>
         <br>
     <p>If you are unhappy with our service, please don’t hesitate to contact our
         24/7 customer service department. We offer a satisfaction guarantee or your
         money back. In this store, you will find products that you use everyday for an
         affordable price. Enjoy!</p>
-        <br>
-    <p>Check out our deals of the week below</p>
-    <br>
-    <h2>Trending Products</h2>
-    <div><img src="../Project Folder/Images/soap.jpg" alt="soap"> 
-        <br>
-        <p>3 in 1 Set Bathroom Soap Dispenser 500ml Shampoo Body Wash
-            Hair Conditioner Bottle Plastic Storage Bottle Press Pump Sub
-            bottle.</p>
-            <br></div>
+    </div>
     
-            <div><img src="../Project Folder/Images/tazor.jpg" alt="soap"> 
-            <br>
-            <p>2021 Hair Trimmer Buddha Shaver USB Rechargable Hair Shave
-                Clipper Cordless Cutting Machine Shaving Wireless Electric
-                Razor Men</p>
-                <br></div>
-            
-                <div><img src="../Project Folder/Images/tp.jpg" alt="soap"> 
-                <br>
-                <p>1 Roll Toilet Paper Bamboo Pulp 4-Layer Soft Water Absorption
-                    Home Office Big Rolling Native Wood Safe No Fluorescent WC
-                    Tissue</p>
-                    <br></div>
+        
+    
+    
+    <div class="h2"><h2>Trending Products</h2></div>
+
+
+    <div class="trending"> 
+        
+        <div class="product1">
+            <img src="../Project Folder/Images/soap.jpg" alt="soap"> 
+    
+            <p>3 in 1 Set Bathroom Soap Dispenser 500ml Shampoo Body Wash
+                Hair Conditioner Bottle Plastic Storage Bottle Press Pump Sub
+                bottle.</p>
+<div  class="buy">
+    <p><img src="https://static.thenounproject.com/png/327146-200.png" width = "100" alt = "Stars" ></p>
+    <p> <input type="submit" value= "- 1 +" > </p>  
+    <p><a href="">view specs</a></p>
+  <p> <input type="submit" value= "Add To Cart" > </p>  
+  
+</div>
+                       
+        </div>
+
+        <div class="product2">
+            <img src="../Project Folder/Images/tazor.jpg" alt="soap"> 
+        
+        <p>2021 Hair Trimmer Buddha Shaver USB Rechargable Hair Shave
+            Clipper Cordless Cutting Machine Shaving Wireless Electric
+            Razor Men</p>
+
+            <div  class="buy">
+                <p><img src="https://static.thenounproject.com/png/327146-200.png" width = "100" alt = "Stars" ></p>
+                <p> <input type="submit" value= "- 1 +" > </p>  
+                <p><a href="">view specs</a></p>
+                <p> <input type="submit" value= "Add To Cart" > </p>    
+              
+            </div>
+        </div>
+        
+        <div class="product3">
+                <img src="../Project Folder/Images/tp.jpg" alt="soap"> 
+           
+            <p>1 Roll Toilet Paper Bamboo Pulp 4-Layer Soft Water Absorption
+                Home Office Big Rolling Native Wood Safe No Fluorescent WC
+                Tissue</p>
+
+                <div  class="buy">
+                    <p><img src="https://static.thenounproject.com/png/327146-200.png" width = "100" alt = "Stars" ></p>
+                    <p> <input type="submit" value= "- 1 +" > </p>  
+                    <p><a href="">view specs</a></p>
+                    <p> <input type="submit" value= "Add To Cart" > </p> 
+                      
+                  
+                </div> 
+        </div>
+        
+    </div>
+        
+        <div>
+      
+    
+        
                     
-                <footer>
-                    <div>
-                        <h2>1-800-243-0000</h2>
-                    </div>
+            <footer> 
+                <div class="footer1">
+             
+                <div class= "row1">
+                    <h2>1-800-243-0000
+                        <br>
+                        Affordable@gmail.com
+                    </h2>
+                    <p>Please don't hesitate to contact our customer service department. We opperate 24/7.</p>
+                </div>
             
-                    <div>
-                    <img src="https://static.thenounproject.com/png/3386750-200.png" width = "40" alt = "Credit Card " >
-                    </div>
+                <div class= "row2">
+                <h2><img src="https://static.thenounproject.com/png/3386750-200.png" width = "40" alt = "Credit Card " ></h2>
+                <p>Acceptible Payment Methods: Visa, Mastercard, Discover, American Express </p>
+                </div>
             
-                    <div>
-                        <h2>Affordable</h2>
-                    </div>
+                <div class= "row3">
+                    <h2>Affordable Slogan</h2>
+                    <p>Affordable Products, Exceptional quality </p>
+                </div>
             
-                    <div>
-                        <h2>Help</h2>
-                    </div>
+                <div class="row4">
+                    <h2>Help</h2>
+                    <p>Please refer to our about page for information regarding shipping and returns</p>
+                </div>
             
-            
-                </footer>
+        </div>
+        
+        </footer>
 </body>
 </html>
     
