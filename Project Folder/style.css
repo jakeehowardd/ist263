@@ -51,3 +51,5 @@ input[type="search"] {
   .row1, .row2, .row3, .row4 {border: 1px solid black;
   padding: 1.5em;
 }
+
+.h2, .h1 {font-family: 'Lora', serif;}
