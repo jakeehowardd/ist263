@@ -15,37 +15,25 @@
 
 
     </style>
+    <script language=”JavaScript”>
+
+        var frmvalidator = new Validator(“contactform”); frmvalidator.addValidation(“name”,”req”,”Please provide your name”); frmvalidator.addValidation(“email”,”req”,”Please provide your email”); frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); </script>
 </head>
 <body>
-    <footer> 
-        <div class="footer1">
-     
-        <div class= "row1">
-            <h2>1-800-243-0000
-                <br>
-                Affordable@gmail.com
-            </h2>
-            <p>Please don't hesitate to contact our customer service department. We opperate 24/7.</p>
-        </div>
-    
-        <div class= "row2">
-        <img src="https://static.thenounproject.com/png/3386750-200.png" width = "40" alt = "Credit Card " >
-        <p>Acceptible Payment Methods: Visa, Mastercard, Discover, American Express </p>
-        </div>
-    
-        <div class= "row3">
-            <h2>Affordable Slogan</h2>
-            <p>Affordable Products, Exceptional quality </p>
-        </div>
-    
-        <div class="row4">
-            <h2>Help</h2>
-            <p>Please refer to our about page for information regarding shipping and returns</p>
-        </div>
-    
-</div>
+    <form action=”mailto:contact@yourdomain.com”
+    method=”POST”
 
-</footer>
+enctype=”multipart/form-data”
+
+name=”EmailTestForm”>
+
+Name:<br>
+
+<input type=”text” size=”24″ name=”VisitorName”><br><br>
+
+Message:<br> <textarea name=”VisitorComment” rows=”4″ cols=”20″>
+
+</textarea><br><br> <input type=”submit” value=”Submit”> </form>
 
     
     
