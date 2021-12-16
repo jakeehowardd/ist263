@@ -10,17 +10,46 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Meow+Script&display=swap" rel="stylesheet">
     <style>
-          .h2 {background-color: rgb(126, 126, 126);
+          .h2 {background-color: lightgrey;
         display: flex;
-        justify-content: center;
         padding: 15px;
-        border: 1px solid black;}
-    .h2 h2 {color: white;
+        border: 1px solid black;
+        
+       
+        
+        
+    }
+    
+    .h2 h2 {color: black;
+             text-align: center;
        }
+
+       .h3 {background-color: rgb(0, 0, 0);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 85px;
+        height: 35px;
+        float: left;
+
+
+        
+    }
+    .h4{display: flex;
+    justify-content: center;
+    
+    margin-left: 510px;
+     }
+    .h3 p {color: white;
+    }
+    
 
 .trending {display: flex;
   justify-content: space-between;
-  padding: 15px;
+  
   
   
 }
@@ -29,13 +58,69 @@ flex-direction: column;
 margin:auto;
 }
 .product1, .product2, .product3{text-align: center;
-        padding: 1em;
+    padding: 1em;
+        
         
         
         }
-}
+.category {display: flex;
+    padding: 15px;
+        justify-content: center;
+        
 
+    
+        
+}
+.sort, .relevance, .popular, .new {
+        display: flex;
+       margin: 15px;
+       padding: 15px;
+       width: 80px;
+       height: 15px;
+        border: 1px solid black;
+        border-radius: 25px;
+        align-items: center;
+        justify-content: center;
+
+   
+        
+
+} 
+ .pn {display: flex;
+justify-content: center;}
+
+.customer {display: flex;
+    
+    justify-content: space-evenly;
+    background-color: rgb(126, 126, 126);
+    
+  }
+  .customer h2 {color: white;}
+
+.review {display: flex;
+    
+  justify-content: space-evenly;
+  background-color: rgb(126, 126, 126);
+  
+  
+  
+ 
+}
+.rev1, .rev2 {display: flex;
+        flex-direction: column;
+           
+            width: 100%;
+            
+}
+.r {
+    text-align: center;
+    border: .5px solid black;
+    height: 75px;
+        }
+.r p {color: white;}
+      
     </style>
+    
 </head>
 <body>
     <div class='header'>   
@@ -80,13 +165,35 @@ margin:auto;
     
 </div>
 
-<section><div class="h2"><h2>Affordable Products</h2></div>
+<section> 
+    
+   
+    
+      <div class="h2">
+          <div class="h3"> 
+              <p>30% OFF Code: 9876</p>
+       
+        </div>
+        <div class="h4"> <h2>Our Products</h2> </div>
+        
+    </div>  
+
+    <div class="category">
+        <div class= "sort"> <p>Sort</p> </div>
+        <div class= "relevance"> <p>Relevance</p> </div>
+        <div class= "popular"> <p>Popular</p> </div>
+        <div class= "new"> <p>Most New</p> </div>
+
+
+    </div>
+   
+    
 
 
     <div class="trending"> 
         
         <div class="product1">
-            <img src="../Project%20Folder/Images/soap.jpg" alt="soap"> 
+            <img src="../ProjectFolder/Images/soap.jpg" alt="soap"> 
     
             <p>3 in 1 Set Bathroom Soap Dispenser 500ml Shampoo Body Wash
                 Hair Conditioner Bottle Plastic Storage Bottle Press Pump Sub
@@ -102,7 +209,7 @@ margin:auto;
         </div>
 
         <div class="product2">
-            <img src="../Project%20Folder/Images/tazor.jpg" alt="Trimmer"> 
+            <img src="../ProjectFolder/Images/tazor.jpg" alt="Trimmer"> 
         
         <p>2021 Hair Trimmer Buddha Shaver USB Rechargable Hair Shave
             Clipper Cordless Cutting Machine Shaving Wireless Electric
@@ -118,7 +225,7 @@ margin:auto;
         </div>
         
         <div class="product3">
-                <img src="../Project%20Folder/Images/tp.jpg" alt="toilet Paper"> 
+                <img src="../ProjectFolder/Images/tp.jpg" alt="toilet Paper"> 
            
             <p>1 Roll Toilet Paper Bamboo Pulp 4-Layer Soft Water Absorption
                 Home Office Big Rolling Native Wood Safe No Fluorescent WC
@@ -142,7 +249,7 @@ margin:auto;
     <div class="trending"> 
         
         <div class="product1">
-            <img src="../Project%20Folder/Images/bd.jpg" alt="blow dryer"> 
+            <img src="../ProjectFolder/Images/bd.jpg" alt="blow dryer"> 
     
             <p>1600W Professional Electric Hair Dryer Strong Wind Salon
                 Portable Dryer Hot & Cold Air Wind Anion Hammer Blower Dry
@@ -158,7 +265,7 @@ margin:auto;
         </div>
 
         <div class="product2">
-            <img src="../Project%20Folder/Images/air.jpg" alt="Humidifier"> 
+            <img src="../ProjectFolder/Images/air.jpg" alt="Humidifier"> 
         
         <p>JISULIFE Humidifier Diffuser 3600mAh Wireless Air Humidifier
             Humificador Portable Moisturizing Diffuser Nawilzacz Powietrza</p>
@@ -173,7 +280,7 @@ margin:auto;
         </div>
         
         <div class="product3">
-                <img src="../Project%20Folder/Images/razor.jpg" alt="razor"> 
+                <img src="../ProjectFolder/Images/razor.jpg" alt="razor"> 
            
             <p>Seago Sonic Rechargeable Electric Toothbrush with 3
                 Replacement Brush Heads 2 Minutes Timer & 4 Brushing Modes
@@ -190,37 +297,75 @@ margin:auto;
         </div>
         
     </div>
+
+    <div class="pn"> <p>Page 1 of 6</p></div>
+
+    <div class= "customer"> <h2>Customer Reviews</h2> </div>
+    <div class= "review">
+
+        
+
+        <div class= "rev1">
+            <div class= "r"> <p>"I like affordable products more and more each day because it makes my life a lot easier. I would be lost without affordable products. I am so pleased with this product. Just what I was looking for."
+            - Kathye S.</p></div>
+        <div class= "r"><p>"Affordable products is awesome! "
+            - Beryle T.</p></div>
+        <div class= "r">  <p>"Best. Product. Ever! Affordable products has completely surpassed our expectations. You won't regret it. It's just amazing. "
+            - Wini P.</p></div>
+        </div>
+        
+        <div class= "rev2">
+            <div class= "r"> <p>"If you aren't sure, always go for affordable products. Thanks for the great service."
+            - Germana T.</p></div>
+        <div class= "r"> <p>"Affordable products is awesome! Just what I was looking for. You won't regret it."
+            - Rutledge B.</p>
+            </div>
+        <div class= "r"> <p>"Thanks for the great service. I am really satisfied with my affordable products."
+            - Candace Q.</p></div>
+        </div>
+        
+
+     </div>
 </section>
     
 
        
 
-                    <div><img src="../Project Folder/Images/tp2.jpg" alt="soap"> 
-                        <br>
-                        <p>50Pcs/Roll Absorbent Kitchen Paper Towels ,Home Kitchen Dish
-                            Cleaning Cloths,Wiping Pad Dishcloth Bathroom Wash Lazy
-                            Rags</p></div>
-                        
-</div>
+
     
-                            <footer>
-                                <div>
-                                    <h2>1-800-243-0000</h2>
-                                </div>
-                        
-                                <div>
-                                <img src="https://static.thenounproject.com/png/3386750-200.png" width = "40" alt = "Credit Card " >
-                                </div>
-                        
-                                <div>
-                                    <h2>Affordable</h2>
-                                </div>
-                        
-                                <div>
-                                    <h2>Help</h2>
-                                </div>
-                        
-                        
-                            </footer>
+<div>
+      
+          
+    <footer> 
+        <div class="footer1">
+     
+        <div class= "row1">
+            <h2>1-800-243-0000
+                <br>
+                Affordable@gmail.com
+            </h2>
+            <p>Please don't hesitate to contact our customer service department. We opperate 24/7.</p>
+        </div>
+    
+        <div class= "row2">
+        <h2><img src="https://static.thenounproject.com/png/3386750-200.png" width = "40" alt = "Credit Card " ></h2>
+        <p>Acceptible Payment Methods: Visa, Mastercard, Discover, American Express </p>
+        </div>
+    
+        <div class= "row3">
+            <h2>Affordable Slogan</h2>
+            <p>Affordable Products, Exceptional quality </p>
+        </div>
+    
+        <div class="row4">
+            <h2>Help</h2>
+            <p>Please refer to our about page for information regarding shipping and returns</p>
+        </div>
+        </div>
+    
+       
+
+</footer>
+</div>
 </body>
 </html>
