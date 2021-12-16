@@ -29,7 +29,8 @@ section {display: block;}
    .aboutsection1 { flex-wrap: wrap;
     flex-flow: column;
      }
-    
+    #form {display: none;}
+    .h4 h2 {display: none;}
      }
 
 @media only screen and (min-width: 700px) {
