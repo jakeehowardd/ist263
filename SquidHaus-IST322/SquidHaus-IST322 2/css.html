@@ -1,0 +1,44 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f3f3f3; /* Optimization: Added background color for improved readability that contrasts black text well */
+    }
+    h1 {
+        color: black; 
+    }
+    p {
+        color: black;
+        font-size: 16px; /*Optimization: Improved font size for better readability */
+    }
+  
+    .separation-line {
+        border-top: 1px solid black; 
+        margin: 20px 0;
+    }
+    .shorts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+    }
+    .shorts > div {
+        flex: 0 0 calc(33.33% - 20px); 
+
+        margin: 10px;
+        text-align: center;
+    }
+    .shorts img {
+        width: 90%; 
+        height: 80%; 
+        border-radius: 10px; 
+    }
+    .product-name {
+        color: #070404;
+        font-weight: bold;
+    }
+    .header.links {
+        text-align: right;
+        flex-direction: column;
+    
+    }
+</style>
