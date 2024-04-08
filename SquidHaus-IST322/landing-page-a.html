@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coming Soon: SQUIDHAUS Shorts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            padding: 50px 20px;
+        }
+        .headline {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .teaser-description {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .teaser-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .notify-button {
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .notify-button:hover {
+            background-color: #0056b3;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 250px;
+            margin-right: 10px;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6N4CQE9WL6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6N4CQE9WL6');
+</script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="headline">A Revolution in Comfort and Style</h1>
+        <p class="teaser-description">Sign up now to get exclusive early access to our groundbreaking new shorts collection and 25% off your first order.</p>
+        <img class="teaser-image" src="https://squidhaus.com/cdn/shop/files/PhotoRoom_000_20230731_170847.jpg?v=1690848586&width=800" alt="SQUIDHAUS Shorts Teaser">
+        <form action="your-signup-endpoint">
+            <input type="email" placeholder="Enter your email" name="email">
+            <button type="submit" class="notify-button">Get Early Access</button>
+        </form>
+    </div>
+</body>
+</html>
